@@ -6,7 +6,7 @@ url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
 homeassistant_api: true
 ingress: true
 ingress_port: 2300
-ingress_entry: Dashboard
+ingress_entry: /
 panel_icon: "mdi:home-assistant"
 panel_title: "Thesillyhome Addon"
 init: false
