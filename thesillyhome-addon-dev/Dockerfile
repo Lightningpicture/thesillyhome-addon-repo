@@ -1,1 +1,1 @@
-FROM lightningpicture/aarch64-thesillyhome-dev:switch-beta_v1.2.1
+FROM lightningpicture/aarch64-thesillyhome-dev:beta_v1.2.1
