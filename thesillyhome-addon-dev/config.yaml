@@ -5,6 +5,11 @@ description: "this repo ist only for development"
 url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
 homeassistant_api: true
 init: false
+webui: "http://[HOST]:[PORT:2300]/"
+watchdog: "http://[HOST]:[PORT:2300]/"
+ingress: true
+ingress_port: 2300
+ingress_entry: Dashboard
 ports:
 2300/tcp: 2300
 ports_description:
