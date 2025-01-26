@@ -8,7 +8,7 @@ init: false
 webui: "http://[HOST]:[PORT:2300]/"
 ingress: true
 ingress_port: 2300
-ingress_entry: /Dashboard
+ingress_entry: Dashboard
 panel_admin: false
 ports:
   2300/tcp: 2300
