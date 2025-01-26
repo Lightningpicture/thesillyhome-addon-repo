@@ -6,6 +6,7 @@ url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
 homeassistant_api: true
 init: false
 webui: "http://[HOST]:[PORT:2300]/"
+watchdog: "http://[HOST]:[PORT:2300]/"
 ingress: true
 ingress_port: 2300
 ingress_entry: Dashboard
