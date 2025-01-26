@@ -48,4 +48,4 @@ schema:
   autotrain: bool
   autotrain_cadence: str
   startup_disable_all: bool
-image: "lightningpicture/aarch64-thesillyhome-dev"
+image: "lightningpicture/{arch}-thesillyhome-dev"
