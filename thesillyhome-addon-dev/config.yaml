@@ -1,51 +1,51 @@
 name: thesillyhome addon dev lightningpicture
-version: "beta_v1.2.1"
+version: "ndev-2"
 slug: thesillyhome_dev
-description: "this repo ist only for development"
+description: "this repo ist only for development "
 url: "https://github.com/lightningpicture/thesillyhome-addon-repo"
 homeassistant_api: true
 init: false
 ports:
-2300/tcp: 2300
+  2300/tcp: 2300
 ports_description:
-2300/tcp: "Web interface (not required for Home Assistant ingress)"
+  2300/tcp: "Web interface (not required for Home Assistant ingress)"
 environment:
-HA_ADDON: "true"
+  HA_ADDON: "true"
 map:
-- config:ro
+  - config:ro
 arch:
-- amd64
-- armv7
-- aarch64
+  - amd64
+  - armv7
+  - aarch64
 options:
-actuactors_id:
-- light.bathroom_lights
-sensors_id:
-- sensor.corridor_end_sensor_illuminance_lux
-- weather.home
-db_options:
-- db_password: XXXXXXX
-db_username: homeassistant
-db_host: 192.168.1.100
-db_port: "3306"
-db_database: home-assistant_v2.db
-db_type: sqlite
-autotrain: true
-autotrain_cadence: "/15 * * * *"
-startup_disable_all: false
+  actuactors_id:
+    - light.bathroom_lights
+  sensors_id:
+    - sensor.corridor_end_sensor_illuminance_lux
+    - weather.home
+  db_options:
+    - db_password: XXXXXXX
+      db_username: homeassistant
+      db_host: 192.168.1.100
+      db_port: "3306"
+      db_database: home-assistant_v2.db
+      db_type: sqlite
+  autotrain: true
+  autotrain_cadence: "35 * * * *"
+  startup_disable_all: false
 schema:
-actuactors_id:
-- str
-sensors_id:
-- str
-db_options:
-- db_password: str?
-db_username: str?
-db_host: str?
-db_port: str?
-db_database: str
-db_type: str
-autotrain: bool
-autotrain_cadence: str
-startup_disable_all: bool
+  actuactors_id:
+    - str
+  sensors_id:
+    - str
+  db_options:
+    - db_password: str?
+      db_username: str?
+      db_host: str?
+      db_port: str?
+      db_database: str
+      db_type: str
+  autotrain: bool
+  autotrain_cadence: str
+  startup_disable_all: bool
 image: "lightningpicture/aarch64-thesillyhome-dev"
