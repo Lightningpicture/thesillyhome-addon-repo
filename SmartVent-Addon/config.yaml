@@ -1,5 +1,5 @@
 name: smartvent addon dev lightningpicture
-version: "init"
+version: "init1"
 slug: smartvent_dev
 description: "AI-powered ventilation control based on humidity, temperature, and weather."
 url: "https://github.com/lightningpicture/smartvent-addon-repo"
