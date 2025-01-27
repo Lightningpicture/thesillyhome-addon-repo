@@ -1,1 +1,1 @@
-FROM lightningpicture/aarch64-thesillyhome-dev:20250127-9ac9c00
+FROM lightningpicture/aarch64-thesillyhome-dev:beta_v1.1.2
