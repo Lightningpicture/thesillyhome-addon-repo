@@ -37,6 +37,9 @@ options:
     - sensor.weather_station
   person_sensor_id:
     - binary_sensor.person_livingroom
+  ventilation_id:
+    - switch.lueftung_badezimmer  # Entity ID der Lüftungseinheit im Badezimmer
+    - switch.lueftung_kuche       # Entity ID der Lüftungseinheit in der Küche
   min_humidity: 60
   max_humidity: 70
   min_temperature: 18
@@ -59,6 +62,8 @@ schema:
   weather_station_id:
     - str
   person_sensor_id:
+    - str
+  ventilation_id:
     - str
   min_humidity: int
   max_humidity: int
