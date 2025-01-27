@@ -1,1 +1,1 @@
-FROM lightningpicture/smartvent:latest
+FROM lightningpicture/smartvent:init
