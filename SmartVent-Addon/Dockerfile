@@ -1,0 +1,1 @@
+FROM lightningpicture/smartvent:latest
