@@ -6,7 +6,7 @@ url: "https://github.com/lightningpicture/smartvent-addon-repo"
 homeassistant_api: true
 ingress: true
 ingress_port: 8088
-ingress_entry: Controls
+ingress_entry: index  # Ändere dies auf "index" statt "Controls"
 panel_icon: "mdi:home-thermometer"
 panel_title: "SmartVent Addon"
 home_assistant_url: "http://192.168.6.8:8123"
