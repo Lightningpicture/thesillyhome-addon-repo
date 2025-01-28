@@ -9,6 +9,7 @@ ingress_port: 8088
 ingress_entry: Controls
 panel_icon: "mdi:home-thermometer"
 panel_title: "SmartVent Addon"
+home_assistant_url: "http://192.168.6.8:8123"
 init: false
 ports:
   8088/tcp: 8088
